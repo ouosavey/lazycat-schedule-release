@@ -1,8 +1,8 @@
 <div align="center">
 
-# 馃惐 鎳掔尗璇捐〃
+# 🐱 懒猫课表
 
-涓€娆剧畝娲佺編瑙傜殑澶у璇捐〃绠＄悊搴旂敤
+一款简洁美观的大学课表管理应用
 
 [![Download](https://img.shields.io/github/v/release/ouosavey/lazycat-schedule-release?label=latest%20version&style=for-the-badge)](https://github.com/ouosavey/lazycat-schedule-release/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20HarmonyOS-green?style=for-the-badge)]()
@@ -11,41 +11,53 @@
 
 ---
 
-## 鉁?鍔熻兘鐗规€?
-- 馃搮 **鏅鸿兘璇捐〃灞曠ず** 鈥?鍛ㄨ鍥?鏃ヨ鍥惧垏鎹紝娓呮櫚鐩磋
-- 馃攧 **涓€閿鍏ヨ琛?* 鈥?鏀寔姝ｆ柟鏁欏姟绯荤粺鑷姩鎻愬彇
-- 馃帹 **涓€у寲涓婚** 鈥?澶氱閰嶈壊鏂规锛岃嚜瀹氫箟鑳屾櫙
-- 馃摑 **澶囧繕褰?* 鈥?璇剧▼绗旇銆佷綔涓氭彁閱?- 馃敂 **璇惧墠鎻愰啋** 鈥?鑷畾涔夋彁鍓嶆彁閱掓椂闂?- 馃摫 **璺ㄥ钩鍙?* 鈥?鏀寔 Android 鍜?HarmonyOS
-- 馃柤锔?**妗岄潰灏忕粍浠?* 鈥?HarmonyOS 妗岄潰鍗＄墖锛屼粖鏃ヨ绋嬩竴鐩簡鐒?
-## 馃摜 涓嬭浇瀹夎
+## ✨ 功能特性
 
-鍓嶅線 [Releases 椤甸潰](https://github.com/ouosavey/lazycat-schedule-release/releases/latest) 涓嬭浇鏈€鏂扮増鏈€?
+- 📅 **智能课表展示** — 周视图/日视图切换，清晰直观
+- 🔄 **一键导入课表** — 支持正方教务系统自动提取
+- 🎨 **个性化主题** — 多种配色方案，自定义背景
+- 📝 **备忘录** — 课程笔记、作业提醒
+- 🔔 **课前提醒** — 自定义提前提醒时间
+- 📱 **跨平台** — 支持 Android 和 HarmonyOS
+- 🖼️ **桌面小组件** — HarmonyOS 桌面卡片，今日课程一目了然
+
+## 📥 下载安装
+
+前往 [Releases 页面](https://github.com/ouosavey/lazycat-schedule-release/releases/latest) 下载最新版本。
+
 ### Android
 
-| 鏂囦欢鍚?| 閫傜敤璁惧 |
+| 文件名 | 适用设备 |
 |--------|---------|
-| `app-arm64-v8a-release.apk` | 澶у鏁扮幇浠ｆ墜鏈猴紙鎺ㄨ崘锛?|
-| `app-armeabi-v7a-release.apk` | 32浣嶆棫鎵嬫満 |
-| `app-x86_64-release.apk` | 妯℃嫙鍣?/ x86 璁惧 |
+| `app-arm64-v8a-release.apk` | 大多数现代手机（推荐） |
+| `app-armeabi-v7a-release.apk` | 32位旧手机 |
+| `app-x86_64-release.apk` | 模拟器 / x86 设备 |
 
-瀹夎鍓嶈寮€鍚€屽厑璁稿畨瑁呮湭鐭ユ潵婧愬簲鐢ㄣ€嶃€?
+安装前请开启「允许安装未知来源应用」。
+
 ### HarmonyOS
 
-| 鏂囦欢鍚?| 璇存槑 |
+| 文件名 | 说明 |
 |--------|------|
-| `entry-default-signed.hap` | HarmonyOS 瀹夎鍖?|
+| `entry-default-signed.hap` | HarmonyOS 安装包 |
 
-瀹夎鏂瑰紡锛氶€氳繃鍗庝负寮€鍙戣€呭伐鍏锋垨绯荤粺鏂囦欢绠＄悊鍣ㄥ畨瑁呫€?
-## 馃敀 瀹夊叏璇存槑
+安装方式：通过华为开发者工具或系统文件管理器安装。
 
-鏈粨搴撲负**鍙戝竷涓撶敤浠撳簱**锛屼笉鍖呭惈浠讳綍婧愪唬鐮併€?
-- 姣忎釜 Release 闄勫甫 **SHA256 鏍￠獙鍊?*锛屽彲鐢ㄤ簬楠岃瘉涓嬭浇鏂囦欢瀹屾暣鎬?- 濡傞渶纭 APK/HAP 瀹屾暣鎬э紝璇峰湪 Release 璇存槑涓煡鐪嬫牎楠屼俊鎭?
-## 馃摐 寮€婧愬崗璁?
-鏈」鐩噰鐢?[MIT License](LICENSE) 寮€婧愬崗璁€?
+## 🔒 安全说明
+
+本仓库为**发布专用仓库**，不包含任何源代码。
+
+- 每个 Release 附带 **SHA256 校验值**，可用于验证下载文件完整性
+- 如需确认 APK/HAP 完整性，请在 Release 说明中查看校验信息
+
+## 📜 开源协议
+
+本项目采用 [MIT License](LICENSE) 开源协议。
+
 ---
 
 <div align="center">
 
-**濡傛湁闂鎴栧缓璁紝娆㈣繋鎻愪氦 [Issue](https://github.com/ouosavey/lazycat-schedule-release/issues)**
+**如有问题或建议，欢迎提交 [Issue](https://github.com/ouosavey/lazycat-schedule-release/issues)**
 
 </div>
