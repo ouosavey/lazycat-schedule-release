@@ -42,7 +42,17 @@
 |--------|------|
 | `entry-default-signed.hap` | HarmonyOS 安装包 |
 
-安装方式：通过华为开发者工具或系统文件管理器安装。
+安装方式：通过华为开发者工具或第三方调试助手安装。
+
+**小白调试助手**
+
+**下载链接：**[Link](https://github.com/likuai2010/auto-installer/releases/latest)
+
+小白调试助手（Auto-Installer）是一款免费、跨平台的鸿蒙应用开发调试工具。**本仓库安装包均推荐使用此工具安装。**
+
+[点击下载教程文档](https://github.com/Zitann/HarmonyOS-Haps/raw/refs/heads/main/assets/guide.pdf)
+
+[点击查看视频教程](https://www.bilibili.com/video/BV1hkZ7YnEMd/)
 
 ## 🔒 安全说明
 
